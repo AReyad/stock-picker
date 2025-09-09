@@ -1,4 +1,3 @@
-
 def stock_picker(array)
   array_of_profits = []
   best_days = []
@@ -36,5 +35,3 @@ end
 
 p stock_picker([17,3,6,9,15,8,6,1,10]) # => [1,4]
 p stock_picker([9, 8, 7, 6, 5, 4, 3, 2, 1]) # => No profit
-p stock_picker([5, 1]) # => No profit
-p stock_picker([3, 3, 3, 3]) # => No profit
